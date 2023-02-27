@@ -1,0 +1,101 @@
+#description
+{
+   padding: auto;
+   color: rgb(226, 43, 43);
+   font-size: larger;
+   font-weight: 300;
+   font-family:'Lucida Sans';
+   border-style:solid;
+   border-color: black;
+   border-radius: 5px;
+   margin-left:70px;
+   width:500px;
+   line-height: 2;
+}
+.maincontainer
+{
+  position: relative;
+  width: 250px;
+  height: 320px;
+  background: rgb(247, 247, 247) ;
+}
+.thecard
+{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 0.5s ease;
+  background: yellow;
+}
+.thecard:hover
+{
+transform: rotateY(180deg); 
+}
+.thefront
+{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  background:rgb(0, 0, 0);
+  color: #333 ;
+}
+.theback
+{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  background: #fafafa;
+  color:#333;
+  transform: rotateY(180deg);
+}
+.maincontainer1
+{
+  position: relative;
+  width: 250px;
+  height: 320px;
+  background: rgb(247, 247, 247) ;
+}
+.thecard1
+{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 0.5s ease;
+  background: yellow;
+}
+.thecard1:hover
+{
+transform: rotateY(180deg); 
+}
+.thefront1
+{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  background:rgb(86, 222, 199);
+  color: #333 ;
+}
+.theback1
+{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  background: #fafafa;
+  color:#333;
+  transform: rotateY(180deg);
+}
+body
+{
+  background-image: url("bg\ html2.png");
+  
+}
+.auto-type{
+  color: white;
+
+}
